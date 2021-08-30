@@ -1,0 +1,39 @@
+body{font: 14px;}
+
+.ex1{
+    width: 460px;
+    padding: 20px;
+    background: #1e90ff;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #f8f8ff;
+}
+
+input, textarea{
+    padding: 5px;
+    width: 450px;
+}
+
+button{
+    display: block;
+    width: 465px;
+    margin: 0 auto;
+}
+
+p{
+    font: italic bold 15px monospace, sans-serif;
+    width: 460px;
+    padding: 2px;
+    background: #37b5e7;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+}
+
