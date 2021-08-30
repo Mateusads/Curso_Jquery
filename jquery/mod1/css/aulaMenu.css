@@ -1,0 +1,36 @@
+body{font: 14px;}
+
+.ex1{
+    width: 460px;
+    padding: 20px;
+    background: #1e90ff;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+p, input{
+    width: 480px;
+    padding: 5px;
+    background: #000;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    border: 5px solid #ccc;
+    margin-top: 10px;
+}
+
+div.menu{
+    clear:both;
+    width: auto;
+    background-color: rgb(55, 55, 66);
+
+}
+
+.menu-fixo{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+
+}
