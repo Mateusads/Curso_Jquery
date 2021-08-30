@@ -15,3 +15,10 @@ Pegar ações de teclas, "criando" um placehold pelo JS para não haver problema
 # Aula Evento de Formulários
 Pegar dados dos campos do formulário.
 Função que após o usuário digitar, clica no botão seleciona e copia tudo. 
+
+# Aula de Efeitos básicos
+Hide - ocultar um objeto
+Show - mostrar novamente
+Toggle - Alternar entre show e hide.
+Input que ao escrever Hide, show ou toggle execulta a ação.
+
