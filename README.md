@@ -11,3 +11,7 @@ Pegar click, movimento, local em que o mouse passa, e alterando o text conforme 
 
 # Aula Evento do Teclado
 Pegar ações de teclas, "criando" um placehold pelo JS para não haver problemas em navegador que não é compativel com essa função. 
+
+# Aula Evento de Formulários
+Pegar dados dos campos do formulário.
+Função que após o usuário digitar, clica no botão seleciona e copia tudo. 
