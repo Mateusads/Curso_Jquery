@@ -24,3 +24,6 @@ Input que ao escrever Hide, show ou toggle execulta a ação.
 
 # Aula Efeito Desvanecimento
 Efeitos como, FadeTo usando outra function para executar o segundo FadeTo ao terminar o primeiro. FadeToggle abordado. 
+
+# Menu fixo
+Ao rolar o scroll do mouse o Menu fica fixado no topo da pagina.
