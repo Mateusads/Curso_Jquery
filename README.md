@@ -8,3 +8,6 @@ Ocultar ou aparecer uma imagem conforme o scroll do mouse.
 
 # Aula Evento do Mouse
 Pegar click, movimento, local em que o mouse passa, e alterando o text conforme for feito a ação.
+
+# Aula Evento do Teclado
+Pegar ações de teclas, "criando" um placehold pelo JS para não haver problemas em navegador que não é compativel com essa função. 
