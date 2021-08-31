@@ -1,5 +1,5 @@
 {
-    "root": "mod1",
+    "root": "jquery/mod1/",
     "clean_urls": true,
     "https_only": true,
     "error_page": "error.html",
