@@ -1,3 +1,13 @@
+<h1>USANDO OS CONHECIMENTOS DO CURSO</h1>
+Para melhorar e absorver o conhecimento, me desafiei e fiz um projeto para execultar todas as funções execultadas no curso.
+Criando uma pagina HTML apenas, com todos os recursos e pode ser acessada no servidor Heroku por esse link.
+
+https://jquery-curso.herokuapp.com/
+
+A pagina contém apenas HTML CSS e Jquery para as ações.
+
+
+
 # Curso_Jquery com Emerson Carvalho - PontoCanal 
 link canal - https://www.youtube.com/channel/UCQjVM9M1rvPjiidoqTQ0z8g
 
