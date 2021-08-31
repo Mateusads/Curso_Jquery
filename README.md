@@ -30,3 +30,6 @@ Ao rolar o scroll do mouse o Menu fica fixado no topo da pagina.
 
 # Transação de imagens por Jquery JS
 Criar uma transação do tipo carrossel onde será passado pelas imagens, e se o html for adicionado mais imagens não é necessário alterar no JS por ser dinâmico a busca de imagens.
+
+# Efeito Sanfona
+Efeito de abrir e fechar ao clicar na guia, ocultando a informação existente e abrindo outra.
