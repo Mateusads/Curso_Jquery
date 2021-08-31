@@ -1,0 +1,11 @@
+{
+    "root": "mod1",
+    "clean_urls": true,
+    "https_only": true,
+    "error_page": "error.html",
+    "headers": {
+        "/**": {
+            "Acess-Control-Allow-Origin": "*"
+        }
+    }
+}
