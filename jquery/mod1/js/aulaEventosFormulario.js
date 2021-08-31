@@ -19,7 +19,7 @@ $(function () {
                 }
             });
     });
-    var ex = $('.ex1');
+    var ex = $('.ex11');
     var nome = "ex";
 
     $('.ev1').focus(function () {

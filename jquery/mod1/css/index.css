@@ -1,0 +1,227 @@
+body{font: 14px;}
+
+div.menu{
+
+    width: 100%;
+    height: auto;
+    background-color: rgb(6, 3, 53);
+
+}
+
+.text-menu{
+    color: rgb(228, 213, 213);
+    font-size: 22px;
+    padding: 3%;
+
+}
+
+.menu h5{
+    color: rgb(70, 69, 75);
+}
+
+.menu-fixo{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+
+}
+
+.nav {
+    align-items: center;
+    font: 20px;
+    font-variant: small-caps;
+    color:#900000;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    background: #f0f0f0;
+}
+
+#pagina{
+    font: 20px;
+    font-variant: small-caps;
+    color:#900000;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    background: #f0f0f0;
+}
+
+
+#pagina .caixa{
+    margin-bottom: 1px;
+    border: 1px solid #a52a2a;
+    color: #333;
+    font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+#pagina .caixa .titulo{
+    padding: 15px;
+    background: #a52a2a;
+    color:#fff;
+    font-weight: bold;
+}
+
+#pagina .caixa .titulo:houver{
+    cursor: pointer;
+    background: #900000;
+    
+}
+
+#pagina .caixa .conteudo{
+    padding: 20px;
+    line-height: 150%;
+}
+
+#pagina .caixa .hide{
+    display: none;    
+}
+
+.first {
+    padding: 15px;
+    background: #a52a2a;
+    color:#fff;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif
+
+}
+
+.first h1{
+    font-size: 78px;
+    font-family: 'Trebuchet MS';
+}
+
+.ex1, .ex2, .ex3{
+    width: 460px;
+    padding: 2px;
+    background: #1e90ff;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+
+button{
+    width: 25%;
+    padding: 5px;
+    background: rgb(255, 7, 7);
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+button:hover{
+    transition: 0.2s;
+    opacity: 0.5;
+}
+
+.row{
+
+    padding: 25px;
+    text-align: center;
+    color: #fff;
+    height: auto; 
+
+}
+
+hr {
+    border: 0;
+    height: 10px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent); 
+	border-top: 100px solid #03133d;
+}
+
+.hr3 {
+    border: 0;
+    height: 10px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent); 
+  }
+
+.frases{
+    width: 680px;
+    padding: 5px;
+
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container{
+    max-width:500px;
+    max-height:550px;
+    width: auto;
+    height: auto;
+}
+
+#slide{
+    width: 640px;
+    overflow: hidden;
+    height: 380px;
+    margin: 50px auto;
+    box-shadow: 0 0 8px #000;
+    position: relative;
+
+}
+
+#slide img{
+    position: absolute;
+    z-index: 1; display: none; 
+    left: 0;
+}
+
+#slide p{
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+
+}
+
+
+
+.form1{
+    width: 460px;
+    padding: 20px;
+    background: #1e90ff;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+.form1 label{
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #f8f8ff;
+}
+
+.form1 input, textarea{
+    display: block;
+    padding: 5px;
+    width: 405px;
+}
+
+.form1 p{
+    font: italic bold 15px monospace, sans-serif;
+    width: 460px;
+    padding: 2px;
+    background: #37b5e7;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+}
+
+.btnForm{
+    align-items: center;
+    display: block;
+    width: 465px;
+    margin: 10 auto;
+}

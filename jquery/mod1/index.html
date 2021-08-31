@@ -4,21 +4,178 @@
 <head>
     <meta charset="UTF-8">
     <title>Pagina Jquery</title>
-    <script type = "text/javascript" src="js/jquery.js"></script>
-    <script type = "text/javascript">
-
-    $(document).ready(function(){
-
-    });
-    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/aulaEfeitoDesvanecimento.js"></script>
+    <script src="js/aulaCarrosselImagens.js"></script>
+    <script src="js/aulaEfeitoSanfona.js"></script>
+    <script src="js/aulaEventosFormulario.js"></script>
+    <link rel="stylesheet" href="css/index.css">
     </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-    <h1>Teste de links</h1>
+    <header class="header">
+        <div class="first" style="text-align: center">
+            <h1>PROJETO</h1>
+            <h2> Jquery - Javascript</h2>
+            <p class="2">Usando todas as aulas do curso</p>
+        </div>
 
-    
+    </header>
 
+
+    <div class="menu" style="text-align: center">
+        <h5>"Menu fixo usando Jquery."</h5>
+        <nav>
+            <a class="text-menu" href="">Desvanecimento</a>
+            <a class="text-menu" href="#">Carrossel</a>
+            <a class="text-menu" href="#">Sanfona</a>
+            <a class="text-menu" href="#">Formulário</a>
+        </nav>
+        <hr>
+    </div>
+    <hr class="hr3">
+
+
+    <div class="frases">
+        <h1>DESVANECIMENTO</h1>
+        <span>Efeitos para sumir algum objeto em Jquery, usando a função FadeTo,
+            conforme for configurado o item vai apagando ou fica meio transparente.
+        </span>
+        <span>Para apagar um de cada vez, é usando uma function dentro da outra.</span>
+    </div>
+
+
+    <div class="row">
+        <div class="ex1">Apaga Primeiro</div>
+        <div class="ex2">Último</div>
+        <div class="ex3">Por Segundo</div>
+    </div>
+    <div style="text-align: center;">
+        <button type="button">Clique para Ocultar ou Aparecer</button>
+    </div>
+    <hr class="hr3">
+
+
+    <div class="frases">
+        <h1>Carrossel</h1>
+        <span>Efeito para alternar imagens usando Jquery, é verificado se há uma proxima img
+            e se houver é feita a troca, se não volta para primeira img e continua a sequencia.
+        </span>
+    </div>
+
+    <figure id="slide">
+        <img src="img/1.jpg" alt="Cartão Postal do Canadá" width="640">
+        <img src="img/2.jpg" alt="Vancouver - Venha conhecer" href="#vancouver" width="690">
+        <img src="img/3.jpg" alt="Toronto cidade mais bonita do mundo" width="680">
+    </figure>
+    <hr class="hr3">
+
+
+    <div class="frases">
+        <h1>EFEITO SANFONA</h1>
+        <span>Efeitos sanfona é com a interação do usuário, poder ocultar ou exibir um item
+            ou uma informação, ficando limpo e claro, tudo usando Jquery.
+    </div>
+
+    <div class="container">
+        <div class="efeito sanfona">
+            <div id="pagina">
+                <h2>Efeito Sanfona</h2>
+
+                <div class="caixa">
+                    <div class="titulo">Primeira Sessão</div>
+                    <div class="conteudo hide">
+                        Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo. Nullam
+                        volutpat risus nec leo commodo, ut interdum diam laoreet. Sed non consequat odio. Cevadis im
+                        ampola
+                        pa
+                        arma uma pindureta. Não sou faixa preta cumpadi, sou preto inteiris, inteiris
+                        <p> <a href="https://www.google.com" class="saiba mais">Saiba mais</a></p>
+                    </div>
+                </div>
+                <div class="caixa">
+                    <div class="titulo">Segunda Sessão</div>
+                    <div class="conteudo hide">
+                        Nulla et enim nisl. Quisque nisi magna, fringilla nec scelerisque id, bibendum vitae mauris.
+                        Cras
+                        elit
+                        justo, semper vitae sodales ut, lacinia fermentum tellus. Phasellus in justo augue. Morbi id
+                        velit
+                        sapien. Curabitur pretium nulla fringilla sem interdum consectetur. Pellentesque vel rhoncus
+                        ipsum,
+                        nec
+                        ultricies nisl. Mauris dictum a augue non faucibus.
+                    </div>
+                </div>
+                <div class="caixa">
+                    <div class="titulo">Terceira Sessão</div>
+                    <div class="conteudo hide">
+                        Sed bibendum diam vel purus euismod, a porttitor orci semper. Ut dictum erat orci, vitae
+                        eleifend
+                        velit
+                        fringilla in. Nam vulputate eros eu nulla efficitur, non ornare mauris efficitur. Pellentesque
+                        id
+                        nisl
+                        quis nisl rhoncus facilisis id in quam. Vivamus at finibus lectus, at venenatis elit. Nam sed
+                        tellus
+                        in
+                        mauris volutpat fringilla at eget orci. Aliquam ultricies diam vel varius laoreet. Integer
+                        commodo
+                        nisl
+                        iaculis ex venenatis luctus. Aenean ac ornare sapien. Curabitur tincidunt metus id purus
+                        maximus,
+                        quis
+                        rhoncus risus pulvinar. Ut vitae cursus mi, condimentum pellentesque lorem. Aliquam sodales,
+                        turpis
+                        gravida hendrerit posuere, ante justo lobortis enim, id dictum turpis tellus convallis quam.
+                        Praesent
+                        non fermentum quam. Vivamus ligula tellus, accumsan non sapien sed, tristique consequat eros.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <hr class="hr3">
+
+
+    <div class="frases">
+        <h1>Efeito Forms</h1>
+        <span>Recuperar dados digitados pelo usuário e exibir no texto.</span><br>
+        <span>Botão que seleciona e copia os dados digitados pelo usuário.</span>
+    </div>
+
+
+    <div class="form1">
+        <div class="ex11">Aguardando Ação</div>
+        <form action="row">
+            <label>
+                <input type="text" class="place ev1" title="Digite seu Nome" name="nome">
+            </label>
+            <label>
+                <input type="text" class="place ev2" title="Digite seu Email" name="email">
+            </label>
+            <label>
+                <textarea rows="5" class="place key ev3" title="Digite seu recado"></textarea>
+            </label>
+            <label>
+                <div class="btnForm">
+                    <button class="selecionar">Select/copy</button>
+                    <button>Enviar</button>
+                </div>
+            </label>
+        </form>
+    </div>
+    <hr class="hr3">
 
 </body>
 
