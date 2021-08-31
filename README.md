@@ -27,3 +27,6 @@ Efeitos como, FadeTo usando outra function para executar o segundo FadeTo ao ter
 
 # Menu fixo
 Ao rolar o scroll do mouse o Menu fica fixado no topo da pagina.
+
+# Transação de imagens por Jquery JS
+Criar uma transação do tipo carrossel onde será passado pelas imagens, e se o html for adicionado mais imagens não é necessário alterar no JS por ser dinâmico a busca de imagens.
